@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD2815E6-4393-41D9-935B-9AF1816FD89A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_3309_Group_Project</RootNamespace>
+    <AssemblyName>3309 Group Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayPictureItems.cs" />
+    <Compile Include="CheckOut.cs" />
+    <Compile Include="DoublePrice.cs" />
+    <Compile Include="Easy123.cs" />
+    <Compile Include="FinalShowDown.cs" />
+    <Compile Include="FrmCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckOut.Designer.cs">
+      <DependentUpon>FrmCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChooseGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChooseGame.Designer.cs">
+      <DependentUpon>FrmChooseGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoublePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoublePrice.Designer.cs">
+      <DependentUpon>FrmDoublePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEasy123.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEasy123.Designer.cs">
+      <DependentUpon>FrmEasy123.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFinalShowDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFinalShowDown.Designer.cs">
+      <DependentUpon>FrmFinalShowDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGoldenRoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGoldenRoad.Designer.cs">
+      <DependentUpon>FrmGoldenRoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMostExpensive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMostExpensive.Designer.cs">
+      <DependentUpon>FrmMostExpensive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOneWrongPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOneWrongPrice.Designer.cs">
+      <DependentUpon>FrmOneWrongPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlayers.Designer.cs">
+      <DependentUpon>FrmPlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlayerScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlayerScore.Designer.cs">
+      <DependentUpon>FrmPlayerScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameSys.cs" />
+    <Compile Include="GoldenRoad.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemList.cs" />
+    <Compile Include="MostExpensive.cs" />
+    <Compile Include="OneWrongPrice.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThePriceIsRight.cs" />
+    <EmbeddedResource Include="FrmCheckOut.resx">
+      <DependentUpon>FrmCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChooseGame.resx">
+      <DependentUpon>FrmChooseGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoublePrice.resx">
+      <DependentUpon>FrmDoublePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEasy123.resx">
+      <DependentUpon>FrmEasy123.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFinalShowDown.resx">
+      <DependentUpon>FrmFinalShowDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGoldenRoad.resx">
+      <DependentUpon>FrmGoldenRoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMostExpensive.resx">
+      <DependentUpon>FrmMostExpensive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOneWrongPrice.resx">
+      <DependentUpon>FrmOneWrongPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlayers.resx">
+      <DependentUpon>FrmPlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlayerScore.resx">
+      <DependentUpon>FrmPlayerScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMainPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIRBackgroundIMage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIRBackgroundIMage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoublePrice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyAs123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PriceIsRightExpensive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\index0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index18.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index19.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index20.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index21.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index22.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\index25.jpg" />
+    <None Include="Resources\index26.jpg" />
+    <None Include="Resources\index27.jpg" />
+    <Content Include="Resources\index3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\index9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\The Showcase.png" />
+    <None Include="Resources\plasmascreen1.gif" />
+    <None Include="Resources\showcase.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

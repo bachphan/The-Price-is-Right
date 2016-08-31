@@ -1,0 +1,16 @@
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\bin\x86\Debug\3309 Group Project.exe.config
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\bin\x86\Debug\3309 Group Project.exe
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\bin\x86\Debug\3309 Group Project.pdb
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmCheckOut.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmChooseGame.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmDoublePrice.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmEasy123.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmGoldenRoad.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmMain.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmMostExpensive.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmOneWrongPrice.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.FrmPlayers.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\_3309_Group_Project.Properties.Resources.resources
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\3309 Group Project.csproj.GenerateResource.Cache
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\3309 Group Project.exe
+C:\Users\Eric\Desktop\3309 Group Project\3309 Group Project\3309 Group Project\obj\x86\Debug\3309 Group Project.pdb
